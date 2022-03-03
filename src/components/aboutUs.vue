@@ -6,7 +6,7 @@
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Blanditiis, pariatur aliquam, est voluptatum illum minima animi sint nihil earum amet explicabo obcaecati libero qui omnis, cumque repellat porro molestias nobis.</p>
             </div>
         </div>
-        <div class="row py-5 d-flex align-items-center ">
+        <div class="row py-5 d-flex align-items-center container m-auto ">
             <div class="col-sm-6">
                 <div class="p-3">
                 <h4> Pourquoi ? </h4>
@@ -21,7 +21,7 @@
                 <img src="https://picsum.photos/500/300" alt="slider image">
             </div>
         </div>
-        <div class="row py-5 d-flex align-items-center">
+        <div class="row py-5 d-flex align-items-center container m-auto">
             <div class="col-sm-5 hover-scale-up-1 ease-500">
                 <img src="https://picsum.photos/500/300" alt="slider image">
             </div>
