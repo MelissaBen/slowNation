@@ -2,30 +2,32 @@
   <Layout>
   <div class="caroussel">
     <h1 class="text-center p-4"> les evenements </h1>
-<carousel>
-  <slide>
-    Slide 1 Content
-  </slide>
-  <slide>
-    Slide 2 Content
-  </slide>
-</carousel>
+    <!--<ClientOnly>
+      <carousel>
+        <slide>
+          Slide 1 Content
+        </slide>
+        <slide>
+          Slide 2 Content
+        </slide>
+      </carousel>
+    </ClientOnly>-->
   </div>
 
   </Layout>
 </template>
 
 <script>
-import { Carousel, Slide } from 'vue-carousel';
+//import { Carousel, Slide } from 'vue-carousel';
 export default {
   metaInfo: {
     title: 'events'
   },
   components: {
-    Carousel,
-    Slide
+   // Carousel,
+   // Slide
   },
-  data() {
+ /* data() {
       return {
         slide: 0,
         sliding: null
@@ -38,7 +40,7 @@ export default {
       onSlideEnd(slide) {
         this.sliding = false
       }
-    }
+    }*/
 }
 </script>
 

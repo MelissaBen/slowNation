@@ -5,6 +5,7 @@
             <b-container>
                 <b-row>
                 <b-col cols="12">
+                   <!--<ClientOnly>
                     <carousel :perPage="3" :autoplay="true" :autoplay-timeout="4000" :loop="true"> 
                         <slide class="p-2 ">
                             <b-card title="We Are Brewers" tag="article" style="width: 300px" class="text-center">
@@ -91,6 +92,7 @@
                             </b-card>
                         </slide>
                     </carousel>
+                    </ClientOnly>-->
                 </b-col>
                 </b-row>
             </b-container>
@@ -99,16 +101,16 @@
 </template>
 
 <script>
-import { Carousel, Slide } from 'vue-carousel';
+//import { Carousel, Slide } from 'vue-carousel';
 export default {
   metaInfo: {
     title: 'events'
   },
   components: {
-    Carousel,
-    Slide
+    //Carousel,
+    //Slide
   },
-  data() {
+  /*data() {
       return {
         slide: 0,
         sliding: null
@@ -121,7 +123,7 @@ export default {
       onSlideEnd(slide) {
         this.sliding = false
       }
-    }
+    }*/
 }
 </script>
 

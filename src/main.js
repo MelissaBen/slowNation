@@ -10,6 +10,9 @@ import '~/assets/styles/main.scss'
 
 
 export default function (Vue, { router, head, isClient }) {
+/*if (isClient) {
+    Vue.use(VueCarousel)
+   }*/
   Vue.use(BootstrapVue)
   //Vue.use(VueCarousel)
   // Set default layout as a global component
