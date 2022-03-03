@@ -55,7 +55,7 @@ body {
   margin-left: 20px;
 }
 .nav__link:hover {
-     background: -webkit-linear-gradient(#84FFBD 15%,  #AAB2FF, #aa00d4);
+    background: -webkit-linear-gradient(#84FFBD 15%,  #AAB2FF, #aa00d4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent
 }

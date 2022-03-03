@@ -1,6 +1,5 @@
 <template>
   <Layout>
-  
     <div class="container-blog m-auto">
             <h1> Les blogs </h1> 
       <div class="row">
@@ -32,12 +31,12 @@
 <page-query>
 query {
   articles: allArticles {
-    edges {
-      node {
-        title
-        abstract
-        image
-        path
+      edges {
+        node {
+          title
+          abstract
+          image
+          path
       }
     }
   }
