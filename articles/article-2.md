@@ -1,5 +1,5 @@
 ---
-title: Article 2
+title: Article 2dgkgkdgfu
 abstract: |
   Maiores, voluptate, totam laborum quod
 image: /uploads/white-and-grey-illustration-5g-network-speed-facebook-post.png
