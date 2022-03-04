@@ -1,14 +1,17 @@
 <template>
   <Layout>
-    <div class="articlePage">
-      <div class="articlePage__img"></div>
-      <div class="container container--article">
-        <img :src="$page.article.image ">
-        <g-link to="/" class="back">Back</g-link>
-        <h1 class="articlePage__title">{{$page.article.title}}</h1>
-        <p>{{$page.article.author}}</p>
-        <p>{{$page.article.date}}</p>
-        <div v-html="$page.article.content"></div>
+    <div class="m-5">
+      <div class="d-flex justify-content-between">
+        <div>
+           <img :src="$page.article.image ">
+        </div>
+        <div class="content">
+          <h1 class="articlePage__title">{{$page.article.title}}</h1>
+          <p>Auteur : {{$page.article.author}}</p>
+          <p>{{$page.article.date}}</p>
+          <div v-html="$page.article.content"></div>
+          <g-link to="/" class="back">Back</g-link>
+        </div>
       </div>
     </div>
   </Layout>
@@ -34,13 +37,12 @@ export default {
 };
 </script>
 <style>
-.container--article {
-  margin-top: -140px;
-  background-color: #fff;
-  border-radius: 8px;
-  padding: 30px 60px;
-  margin-bottom: 100px;
+
+.content {
+  width: 100%;
+  padding: 5%;
 }
+
 @media screen and (max-width: 992px) {
   .container--article {
     padding: 15px 20px;
@@ -53,13 +55,18 @@ export default {
   background-position: center;
 }
 .back {
-  display: flex;
-  align-items: center;
-  color: #333;
-  text-decoration: none;
+  color: #AAB2FF ;
+  font-size: 25px;
 }
 .svg-inline--fa{
   width: 20px;
   margin-right: 15px;
   color: #333;
 }
+
+h1 {
+   background: -webkit-linear-gradient(#84FFBD 15%,  #AAB2FF, #aa00d4);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+</style>
