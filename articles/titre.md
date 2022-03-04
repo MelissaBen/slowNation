@@ -1,5 +1,5 @@
 ---
-title: Article 1
+title: Article
 abstract: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. "
 image: /uploads/white-and-grey-illustration-5g-network-speed-facebook-post-1-.png
 author: Melissa
