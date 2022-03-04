@@ -6,7 +6,7 @@
       <div
         v-for="article in $page.articles.edges"
         :key="article.id"
-        class="article d-flex my-5 mx-3 hover-bg-indigo-lightest-10 hover-scale-up-1 ease-300"
+        class="article d-flex justify-content-between my-5 mx-3 hover-bg-indigo-lightest-10 hover-scale-up-1 ease-300"
       >
       <b-card
         title="Card Title"

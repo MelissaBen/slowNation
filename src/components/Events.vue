@@ -1,10 +1,14 @@
 <template>
-    <div class="caroussel">
-        <h1 class="text-center p-4"> les evenements </h1>
+    <div class="caroussel container">
+        <h1 class="text-center p-5"> NOS PROCHAINS <span class="text">ÉVÉNEMENTS</span></h1>
+        <g-image src="~/assets/images/event.png" alt="slider image" />
+
         <div class="text-dark">
             <b-container>
+
                 <b-row>
                 <b-col cols="12">
+
                    <!--<ClientOnly>
                     <carousel :perPage="3" :autoplay="true" :autoplay-timeout="4000" :loop="true"> 
                         <slide class="p-2 ">
@@ -128,8 +132,32 @@ export default {
 </script>
 
 <style scoped>
+
 .caroussel { 
   width: 100%;
   margin: auto;
+
 }
+ h1 {
+ 
+    
+        font-weight: 600;
+        font-size: 35px;
+     line-height: 64px;
+       
+     font-family: Montserrat;
+        letter-spacing: 0.05em;
+       
+    }
+
+    h1.principale{
+        font-size: 55px;
+    }
+    .text {
+        display: inline;
+        padding: 0;
+        background: -webkit-linear-gradient(#84FFBD 15%,  #AAB2FF, #aa00d4);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
 </style>

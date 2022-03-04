@@ -14,6 +14,40 @@
       </nav>
     </header>
     <slot/>
+    <footer class="d-flex justify-content-around p-5 ">
+      <div>
+          <g-image src="~/assets/images/logo.png" class="img-fluid img-footer" alt="logo" />
+      </div>
+      <div>
+        <h2>Menu</h2>
+        <div class="footer">
+          <a href="">Accueil</a>
+          <a href="">ÉVÉNements</a>
+          <a href="">éco-responsable</a>
+          <a href="">à propos</a>
+          <a href="">blog</a>
+          <a href="">contact</a>
+        </div>
+      </div>
+      <div>
+        <h2>reseaux sociaux</h2>
+        <div class="footer">
+          <a href="">Instgrame</a>
+          <a href="">facebook</a>
+          <a href="">twitter</a>
+          <a href="">tiktok</a>
+        </div>
+      </div>
+      <div>
+        <h2>newsletter</h2>
+        <div class=" s d-flex mt-3">
+          <input type="text" name="" id="">
+          <span>s'inscrire</span>
+        </div>
+      </div>
+   
+
+    </footer>
   </div>
 </template>
 
@@ -27,7 +61,7 @@ query {
 
 <style>
 body {
-  font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+  font-family: Montserrat;
   margin:0;
   padding:0;
   line-height: 1.5;
@@ -54,9 +88,46 @@ body {
   color: white;
   margin-left: 20px;
 }
-.nav__link:hover {
+footer a:hover, .nav__link:hover {
     background: -webkit-linear-gradient(#84FFBD 15%,  #AAB2FF, #aa00d4);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent
+}
+
+footer {
+    background-color: black;
+
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  background-color: transparent;
+  border: 1px solid white;
+  width: 250px;
+  height: 35px;
+}
+
+.img-footer {
+  width: 150px;
+}
+
+.s span {
+  border: 1px solid white;
+  padding: 5px;
+  height: 35px;
+
+}
+
+.footer a {
+  color: white;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+
 }
 </style>

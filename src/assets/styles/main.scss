@@ -2,7 +2,7 @@
 @import './custom';
 
 body {
-    background-color: black !important;
+    background-color: #171717;
     color: white;
 }
 
@@ -11,10 +11,10 @@ body {
     position: relative;
     background: none;
     border: none;
-    color: rgb(0, 0, 0);
+    color: white;
     font-size: 18px;
     cursor: pointer;
-    background: white;
+    border: 1px solid white;
     border-radius: 100px;
 }
 
